@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Jargb</AssemblyName>
+    <ApplicationIcon>Assets\Jargb.ico</ApplicationIcon>
+    <DefaultItemExcludes>$(DefaultItemExcludes);Cli/**</DefaultItemExcludes>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Jargb.ico" />
+  </ItemGroup>
+</Project>
